@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AFB920D92B5E839F0060560A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920D82B5E839F0060560A /* main.swift */; };
+		AFB920E02B5E83C10060560A /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920DF2B5E83C10060560A /* Shape.swift */; };
+		AFB920E22B5E83F10060560A /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920E12B5E83F10060560A /* Circle.swift */; };
+		AFB920E42B5E841C0060560A /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920E32B5E841C0060560A /* Square.swift */; };
+		AFB920E62B5E844C0060560A /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920E52B5E844C0060560A /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		AFB920D52B5E839F0060560A /* Dz3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dz3; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB920D82B5E839F0060560A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AFB920DF2B5E83C10060560A /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		AFB920E12B5E83F10060560A /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		AFB920E32B5E841C0060560A /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		AFB920E52B5E844C0060560A /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				AFB920D82B5E839F0060560A /* main.swift */,
+				AFB920DF2B5E83C10060560A /* Shape.swift */,
+				AFB920E12B5E83F10060560A /* Circle.swift */,
+				AFB920E32B5E841C0060560A /* Square.swift */,
+				AFB920E52B5E844C0060560A /* Triangle.swift */,
 			);
 			path = Dz3;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB920E42B5E841C0060560A /* Square.swift in Sources */,
 				AFB920D92B5E839F0060560A /* main.swift in Sources */,
+				AFB920E62B5E844C0060560A /* Triangle.swift in Sources */,
+				AFB920E02B5E83C10060560A /* Shape.swift in Sources */,
+				AFB920E22B5E83F10060560A /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
