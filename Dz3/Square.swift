@@ -18,3 +18,9 @@ class Square: Shape {
         print("Рисую квадрат со стороной \(sideLength)")
     }
 }
+extension Square {
+    
+    func description() -> String {
+        return "Квадрат со стороной: \(sideLength)"
+    }
+}

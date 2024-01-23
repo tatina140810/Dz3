@@ -21,4 +21,19 @@ shapes.append(triangle)
 
 for shape in shapes {
     shape.draw()
+
+}
+
+var shapesWithDiscription: [String] = []
+
+let circleWithDiscription = Circle(radius: 4.0).description()
+let squareWithDiscription = Square(sideLength: 5.2).description()
+let triangleWithDiscription = Triangle(base: 2.0, height: 4.0).description()
+
+shapesWithDiscription.append(circleWithDiscription)
+shapesWithDiscription.append(squareWithDiscription)
+shapesWithDiscription.append(triangleWithDiscription)
+
+for shape in shapesWithDiscription {
+    print(shape)
 }

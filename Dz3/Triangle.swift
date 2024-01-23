@@ -20,3 +20,9 @@ class Triangle: Shape {
         print("Рисую треугольник с основанием \(base) и высотой \(height)")
     }
 }
+extension Triangle {
+    
+    func description() -> String {
+        return "Треугольник с основанием \(base) и высотой \(height)"
+    }
+}
