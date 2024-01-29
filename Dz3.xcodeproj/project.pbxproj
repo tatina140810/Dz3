@@ -12,6 +12,7 @@
 		AFB920E22B5E83F10060560A /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920E12B5E83F10060560A /* Circle.swift */; };
 		AFB920E42B5E841C0060560A /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920E32B5E841C0060560A /* Square.swift */; };
 		AFB920E62B5E844C0060560A /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB920E52B5E844C0060560A /* Triangle.swift */; };
+		AFB921652B679E230060560A /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB921642B679E230060560A /* Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		AFB920E12B5E83F10060560A /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		AFB920E32B5E841C0060560A /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		AFB920E52B5E844C0060560A /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		AFB921642B679E230060560A /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				AFB920E12B5E83F10060560A /* Circle.swift */,
 				AFB920E32B5E841C0060560A /* Square.swift */,
 				AFB920E52B5E844C0060560A /* Triangle.swift */,
+				AFB921642B679E230060560A /* Protocol.swift */,
 			);
 			path = Dz3;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				AFB920E62B5E844C0060560A /* Triangle.swift in Sources */,
 				AFB920E02B5E83C10060560A /* Shape.swift in Sources */,
 				AFB920E22B5E83F10060560A /* Circle.swift in Sources */,
+				AFB921652B679E230060560A /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

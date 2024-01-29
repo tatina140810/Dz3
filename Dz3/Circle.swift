@@ -10,12 +10,15 @@ import Foundation
 class Circle: Shape {
     var radius: Double
     
-    init(radius: Double) {
+    init(color: String, radius: Double) {
         self.radius = radius
+        
+        super.init(color: color)
+        
     }
     
     override func draw() {
-        print("Рисую круг с радиусом \(radius)")
+        print("Рисую круг с радиусом \(radius), \(color) цвета")
     }
 }
 extension Circle {

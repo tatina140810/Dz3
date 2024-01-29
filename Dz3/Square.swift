@@ -9,13 +9,15 @@ import Foundation
 
 class Square: Shape {
     var sideLength: Double
-
-    init(sideLength: Double) {
+    
+    init(color: String, sideLength: Double) {
         self.sideLength = sideLength
+        
+        super.init(color: color)
     }
-
+    
     override func draw() {
-        print("Рисую квадрат со стороной \(sideLength)")
+        print("Рисую квадрат со стороной \(sideLength), \(color) цвета")
     }
 }
 extension Square {

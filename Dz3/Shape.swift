@@ -7,10 +7,17 @@
 
 import Foundation
 
-class Shape {
+class Shape: Color {
+    var color: String
+    
+    init (color: String) {
+        self.color = color
+    }
+    
     func draw() {
         
-    print ("Выводим информацию о рисовании формы." )
+        print ("Выводим информацию о рисовании формы." )
+        
         
     }
 }
