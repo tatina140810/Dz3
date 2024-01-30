@@ -7,13 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
-
 var shapes: [Shape] = []
 
-let circle = Circle(color: "красного", radius: 3.0)
-let square = Square(color: "голубого", sideLength: 7.3)
-let triangle = Triangle(color: "белого", base: 3.0, height: 5.0)
+let circle = Circle(color: "White")
+let square = Square(color: RGBColor(red: 0.5, green: 0.8, blue: 0.2))
+let triangle = Triangle(color: 132)
 
 shapes.append(circle)
 shapes.append(square)
@@ -22,18 +20,12 @@ shapes.append(triangle)
 for shape in shapes {
     shape.draw()
     
-}
-
-var shapesWithDiscription: [String] = []
-
-let circleWithDiscription = Circle(color: "красного", radius: 4.0).description()
-let squareWithDiscription = Square(color: "голубого", sideLength: 5.2).description()
-let triangleWithDiscription = Triangle(color: "белого", base: 2.0, height: 4.0).description()
-
-shapesWithDiscription.append(circleWithDiscription)
-shapesWithDiscription.append(squareWithDiscription)
-shapesWithDiscription.append(triangleWithDiscription)
-
-for shape in shapesWithDiscription {
-    print(shape)
+    if let size = shape as? Circle {
+        print("\(size.description(size: 3.6)) см радиус")
+    } else if let size = shape as? Square {
+        print(" \(size.description (size: 6)) см сторона квадрата")
+    } else if let size = shape as? Triangle {
+        print(size.description(size: "катет = 3, гипотенуза = 4"))
+    }
+    print("--------")
 }

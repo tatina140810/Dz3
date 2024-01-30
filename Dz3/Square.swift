@@ -8,21 +8,15 @@
 import Foundation
 
 class Square: Shape {
-    var sideLength: Double
-    
-    init(color: String, sideLength: Double) {
-        self.sideLength = sideLength
-        
-        super.init(color: color)
-    }
-    
+
     override func draw() {
-        print("Рисую квадрат со стороной \(sideLength), \(color) цвета")
+        print("Рисую квадрат \(color) цвета")
     }
 }
-extension Square {
-    
-    func description() -> String {
-        return "Квадрат со стороной: \(sideLength)"
-    }
+struct RGBColor {
+    var red: Double
+    var green: Double
+    var blue: Double
 }
+
+   
